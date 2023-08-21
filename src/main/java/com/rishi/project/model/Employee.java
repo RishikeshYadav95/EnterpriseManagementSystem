@@ -11,16 +11,20 @@ import jakarta.persistence.Table;
 @Table(name= "employee")
 public class Employee {
 	
+	//Auto generated Id attribute for employees.
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
+	//Attribute first_name stores first name value of the employee.
 	@Column(name = "first_name")
 	private String firstName;
 	
+	//Attribute last_name stores last name value of the employee.
 	@Column(name = "last_name")
 	private String lastName;
 	
+	//Attribute emailId stores email Id value of the employee.
 	@Column(name = "emailId")
 	private String emailId;
 	
