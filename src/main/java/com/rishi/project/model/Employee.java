@@ -7,6 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+//This class is the model for Employee.
 @Entity
 @Table(name= "employee")
 public class Employee {
